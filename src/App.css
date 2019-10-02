@@ -1,0 +1,25 @@
+main {
+  display: grid;
+  grid-template-columns: 200px 200px 200px;
+  grid-gap: 0px;
+}
+
+h1{
+  text-align: center;
+}
+.main{
+  background: #4568DC;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #B06AB3, #4568DC);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #B06AB3, #4568DC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  display: flex;
+  justify-content: center;
+}
+
+.square{
+  border: 1px gray solid;
+  height: 200px;
+}
+
+.sqr 
+{ width: 100%; height: 100%; font-size: 5em ; }
